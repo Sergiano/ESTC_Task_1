@@ -13,7 +13,7 @@ int main()
 	
 	res = getSum(vect1, vect2);
 	
-	printf("SUM: %.0f %.0f %.0f", res.X1, res.X2, res.X3);
+	printf("SUM: %f %f %f", res.X1, res.X2, res.X3);
 	
 	return 0;
 }
