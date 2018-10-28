@@ -6,8 +6,8 @@ typedef struct
 	float X1;
 	float X2;
 	float X3;
-} somevector;
+} Somevector;
 
-somevector getSum(somevector vect1, somevector vect2);
+Somevector getSum(Somevector vect1, Somevector vect2);
 
 #endif
