@@ -12,4 +12,10 @@ Somevector getSum(Somevector vect1, Somevector vect2);
 
 Somevector getSub(Somevector vect1, Somevector vect2);
 
+float getDot(Somevector vect1, Somevector vect2);
+
+Somevector getCross(Somevector vect1, Somevector vect2);
+
+float getCrossModule(Somevector vect1, Somevector vect2);
+
 #endif
