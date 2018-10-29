@@ -10,4 +10,6 @@ typedef struct
 
 Somevector getSum(Somevector vect1, Somevector vect2);
 
+Somevector getSub(Somevector vect1, Somevector vect2);
+
 #endif

@@ -14,8 +14,10 @@ int main()
 	vect2 = fillVector(2);
 	
 	res = getSum(vect1, vect2);
-	
 	printf("SUM: %f %f %f\n", res.X1, res.X2, res.X3);
+
+	res = getSub(vect1, vect2);
+	printf("SUB: %f %f %f\n", res.X1, res.X2, res.X3);
 	
 	return 0;
 }
