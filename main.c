@@ -10,7 +10,7 @@ int main(int argc, char* argv[])
 {
 	if (argc < 7)
 	{
-		printf("Pls, write the coordinates in the command line arguments in the format: \"X2 X3 X1 X2 X3\"");
+		printf("Pls, write the coordinates in the command line arguments in the format: \"X1 X2 X3 X1 X2 X3\"");
 	}
 	else
 	{
