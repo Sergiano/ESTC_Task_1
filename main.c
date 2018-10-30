@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "somevector.h"
 
-#define getSymbol atof(*++argv)
+#define getDigit atof(*++argv)
 
 Somevector fillVector(int number);
 
@@ -16,15 +16,15 @@ int main(int argc, char* argv[])
 	{
 		Somevector vect1, vect2, res;
 	
-		vect1.X1 = getSymbol;
-		vect1.X2 = getSymbol;
-		vect1.X3 = getSymbol;
+		vect1.X1 = getDigit;
+		vect1.X2 = getDigit;
+		vect1.X3 = getDigit;
 	
 		printf("V1: %f %f %f\n", vect1.X1, vect1.X2, vect1.X3);
 	
-		vect2.X1 = getSymbol;
-		vect2.X2 = getSymbol;
-		vect2.X3 = getSymbol;
+		vect2.X1 = getDigit;
+		vect2.X2 = getDigit;
+		vect2.X3 = getDigit;
 		
 		printf("V2: %f %f %f\n", vect1.X1, vect2.X2, vect2.X3);
 	
