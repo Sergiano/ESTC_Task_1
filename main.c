@@ -37,7 +37,7 @@ int main(int argc, char* argv[])
 		printf("Dot: %f\n", getDot(vect1, vect2));
 		
 		res = getCross(vect1, vect2);
-		printf("Cross: %fi%fj%fk\n", res.X1, res.X2, res.X3);
+		printf("Cross: %fi %fj %fk\n", res.X1, res.X2, res.X3);
 		
 		printf("CrossModule: %f\n", getCrossModule(vect1, vect2));
 	}
