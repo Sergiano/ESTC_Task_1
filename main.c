@@ -4,8 +4,6 @@
 
 #define getDigit atof(*++argv)
 
-Somevector fillVector(int number);
-
 int main(int argc, char* argv[])
 {
 	if (argc < 7)
@@ -14,7 +12,7 @@ int main(int argc, char* argv[])
 	}
 	else
 	{
-		Somevector vect1, vect2, res;
+		vector3d_t vect1, vect2, res;
 	
 		vect1.X1 = getDigit;
 		vect1.X2 = getDigit;

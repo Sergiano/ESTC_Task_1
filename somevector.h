@@ -6,16 +6,16 @@ typedef struct
 	float X1;
 	float X2;
 	float X3;
-} Somevector;
+} vector3d_t;
 
-Somevector getSum(Somevector vect1, Somevector vect2);
+vector3d_t getSum(vector3d_t vect1, vector3d_t vect2);
 
-Somevector getSub(Somevector vect1, Somevector vect2);
+vector3d_t getSub(vector3d_t vect1, vector3d_t vect2);
 
-float getDot(Somevector vect1, Somevector vect2);
+float getDot(vector3d_t vect1, vector3d_t vect2);
 
-Somevector getCross(Somevector vect1, Somevector vect2);
+vector3d_t getCross(vector3d_t vect1, vector3d_t vect2);
 
-float getCrossModule(Somevector vect1, Somevector vect2);
+float getCrossModule(vector3d_t vect1, vector3d_t vect2);
 
 #endif

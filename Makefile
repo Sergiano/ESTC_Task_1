@@ -11,4 +11,4 @@ dot.o: dot.c somevector.h
 cross.o: cross.c somevector.h
 	gcc -c cross.c -lm
 clean:
-	rm -r *.o
+	-rm -f *.o
