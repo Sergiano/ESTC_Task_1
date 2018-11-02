@@ -8,14 +8,14 @@ typedef struct
 	float X3;
 } vector3d_t;
 
-vector3d_t getSum(vector3d_t vect1, vector3d_t vect2);
+void vgetsum(const vector3d_t *vect1, const vector3d_t *vect2, vector3d_t *result);
 
-vector3d_t getSub(vector3d_t vect1, vector3d_t vect2);
+void vgetsub(const vector3d_t *vect1, const vector3d_t *vect2, vector3d_t *result);
 
-float getDot(vector3d_t vect1, vector3d_t vect2);
+void vgetdot(const vector3d_t *vect1, const vector3d_t *vect2, float *result);
 
-vector3d_t getCross(vector3d_t vect1, vector3d_t vect2);
+void vgetcross(const vector3d_t *vect1, const vector3d_t *vect2,  vector3d_t *result);
 
-float getCrossModule(vector3d_t vect1, vector3d_t vect2);
+void vgetcrossmodule(const vector3d_t *vect1, const vector3d_t *vect2, float *result);
 
 #endif

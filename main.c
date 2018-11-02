@@ -13,6 +13,7 @@ int main(int argc, char* argv[])
 	else
 	{
 		vector3d_t vect1, vect2, res;
+		float res_value;
 	
 		vect1.X1 = getDigit;
 		vect1.X2 = getDigit;
@@ -26,21 +27,22 @@ int main(int argc, char* argv[])
 		
 		printf("V2: %f %f %f\n", vect1.X1, vect2.X2, vect2.X3);
 	
-		res = getSum(vect1, vect2);
+		vgetsum(&vect1, &vect2, &res);
 		printf("Sum: %f %f %f\n", res.X1, res.X2, res.X3);
 
-		res = getSub(vect1, vect2);
+		vgetsub(&vect1, &vect2, &res);
 		printf("Sub: %f %f %f\n", res.X1, res.X2, res.X3);
 		
-		printf("Dot: %f\n", getDot(vect1, vect2));
+		vgetdot(&vect1, &vect2, &res_value);
+		printf("Dot: %f\n", res_value);
 		
-		res = getCross(vect1, vect2);
+		vgetcross(&vect1, &vect2, &res);
 		printf("Cross: %fi %fj %fk\n", res.X1, res.X2, res.X3);
 		
-		printf("CrossModule: %f\n", getCrossModule(vect1, vect2));
+		vgetcrossmodule(&vect1, &vect2, &res_value);
+		printf("CrossModule: %f\n", res_value);
 	}
 	
 	return 0;
 	
 }
-
